@@ -26,18 +26,27 @@ Run my-code-2.py to train the model. It needs various parameters, in this form:
 
 ```bash
 python my-code-2.py training_data_3.txt validation_data_2.txt --hidden_size=200 --num_epochs=700 --lr=0.02 --temperature=0.5
-```bash 
+```
 If you'd like to add validation loop, try :
-
+```bash
 python my-code-2.py training_data_3.txt validation_data_2.txt --hidden_size=200 --num_epochs=700 --lr=0.02 --temperature=0.5 --eval_mode
+```
 
 ### Sampling your trained model
-
 After training, run test.py to load the model and test its generative ability. There 3 sampling strategies.
+
 Example usage: 
-Original method  (although we still need to set the temp it wont be used):  
+
+**Original method**  (although we still need to set the temp it wont be used):  
+```bash
 python test.py --temperature=0.7
-Temperature control: 
+```
+**Temperature control:**
+```bash
 python test.py --temperature=0.7 --add_random
-Beam search: python test.py (again although we still need to set the temp it wont be used)
---temperature=0.7 --beam_search 
+```
+
+**Beam search:**  (again although we still need to set the temp it wont be used)
+```bash
+python test.py --temperature=0.7 --beam_search 
+```
