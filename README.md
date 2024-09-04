@@ -6,11 +6,11 @@ Welcome to the world of AI-generated cats! This project is an attempt to teach a
 I wanted to see if RNNs could generate unique cat figures after learning from a few examples. Turns out, RNNs are great at memorizing cats but not so great at being creative. So I went on a journey to teach the model how to generalize and dream up new feline friends.
 
 ## The Results 🐾
-Cats Generated? Sort of.
+**Cats Generated?** Sort of.
 
-Creative Cats? Occasionally.
+**Creative Cats?** Occasionally.
 
-Novel Cats? Uhh… let’s say they tried.
+**Novel Cats?** Uhh… let’s say they tried.
 
 ## Try It Yourself!
 Clone the repo, train some models, and watch your AI try its best to draw a cat. It might not be Picasso, but it could give you a laugh!
@@ -24,6 +24,7 @@ There is also one file of validation data named validation_data_2.txt
 
 Run my-code-2.py to train the model. It needs various parameters, in this form:
 
+```bash
 python my-code-2.py training_data_3.txt validation_data_2.txt --hidden_size=200 --num_epochs=700 --lr=0.02 --temperature=0.5
 
 If you'd like to add validation loop, try :
