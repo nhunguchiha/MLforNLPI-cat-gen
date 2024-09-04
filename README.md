@@ -26,7 +26,7 @@ Run my-code-2.py to train the model. It needs various parameters, in this form:
 
 ```bash
 python my-code-2.py training_data_3.txt validation_data_2.txt --hidden_size=200 --num_epochs=700 --lr=0.02 --temperature=0.5
-
+```bash 
 If you'd like to add validation loop, try :
 
 python my-code-2.py training_data_3.txt validation_data_2.txt --hidden_size=200 --num_epochs=700 --lr=0.02 --temperature=0.5 --eval_mode
