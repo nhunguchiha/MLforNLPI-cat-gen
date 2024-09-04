@@ -7,10 +7,12 @@ I wanted to see if RNNs could generate unique cat figures after learning from a 
 
 ## The Results 🐾
 Cats Generated? Sort of.
+
 Creative Cats? Occasionally.
+
 Novel Cats? Uhh… let’s say they tried.
 
-##Try It Yourself!
+## Try It Yourself!
 Clone the repo, train some models, and watch your AI try its best to draw a cat. It might not be Picasso, but it could give you a laugh!
 
 ### The data
